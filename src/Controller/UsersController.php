@@ -136,7 +136,7 @@ class UsersController extends AppController
         $this->set(compact('user'));
         $this->set('_serialzie', ['user']);
     }
-    public function beforeFilter(Event $event){
+    /* public function beforeFilter(Event $event){
         $this->Auth->allow(['register']);
-    }
+    } */
 }

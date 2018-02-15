@@ -42,7 +42,6 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         </ul>
         <div class="top-bar-section">
             <ul class="right">
-                <li><a target="_blank" href="https://book.cakephp.org/3.0/">Logout</a></li>
                 <li><?= $this->Html->link('Logout', ['controller' => 'Users', 'action' => 'logout' ]) ?></li>
             </ul>
         </div>
